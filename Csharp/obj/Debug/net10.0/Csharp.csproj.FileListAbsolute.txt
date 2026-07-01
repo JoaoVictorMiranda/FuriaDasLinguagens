@@ -1,0 +1,14 @@
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/bin/Debug/net10.0/Csharp
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/bin/Debug/net10.0/Csharp.deps.json
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/bin/Debug/net10.0/Csharp.runtimeconfig.json
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/bin/Debug/net10.0/Csharp.dll
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/bin/Debug/net10.0/Csharp.pdb
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.AssemblyInfoInputs.cache
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.AssemblyInfo.cs
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.csproj.CoreCompileInputs.cache
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.dll
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/refint/Csharp.dll
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.pdb
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/Csharp.genruntimeconfig.cache
+/home/_jonas_/projetos/FuriaLinguagens/Csharp/obj/Debug/net10.0/ref/Csharp.dll

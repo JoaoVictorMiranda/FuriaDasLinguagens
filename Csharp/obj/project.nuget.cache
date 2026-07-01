@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7YvV4F3deCU=",
+  "success": true,
+  "projectFilePath": "/home/_jonas_/projetos/FuriaLinguagens/Csharp/Csharp.csproj",
+  "expectedPackageFiles": [
+    "/home/_jonas_/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
