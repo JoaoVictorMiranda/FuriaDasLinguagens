@@ -1,0 +1,34 @@
+Console.WriteLine("########## BEM VINDO AO NIVEL SENIOR ##########");
+Console.WriteLine("########## PROGRAMA DO EXTENSO ##########");
+Console.WriteLine("ESCREVA UM NUMERO: ");
+
+string numero = Console.ReadLine();
+
+string[] Centenas =
+[
+    "Cem",
+    "Duzentos",
+    "Trezentos",
+    "Quatrocentos",
+    "Quinhentos",
+    "Seiscentos",
+    "Setecentos",
+    "Oitocentos",
+    "Novecentos"
+];
+for (int i = 0; i < numero.Length; i++)
+{
+    for (int j = 0; j <= Centenas.Length; j++)
+    {
+        int Number = numero[i] - '0';
+        Console.WriteLine(Number);
+        if (Number == j - 1)
+        {   
+            Console.WriteLine(Centenas[j]);
+        }
+    }
+}
+
+
+
+
