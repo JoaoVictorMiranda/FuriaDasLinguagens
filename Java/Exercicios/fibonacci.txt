@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("+++ SEQUENCIA DO FIBONACCI +++");
+
+        System.out.println("Digite um numero: ");
+        int casas = scanner.nextInt();
+        int[] sequencia = new int[casas];
+        int anterior = 0;
+        int atual = 1;
+        sequencia[0] = anterior;
+        sequencia[1] = atual;
+        for (int i = 2; i < casas; i++) {
+            int novo = anterior + atual;
+            sequencia[i] = novo;
+            anterior = atual;
+            atual = novo;
+        }
+        for (int i : sequencia) {
+            System.out.println(i);
+        }
+    }
+}
