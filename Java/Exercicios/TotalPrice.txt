@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("++ Total Price ++");
+        System.out.println("Whats the price of the product?");
+        double price = scanner.nextDouble();
+        System.out.println("How much did you buy?");
+        int qtd = scanner.nextInt();
+
+        double totalPrice = price * qtd;
+        System.out.printf("Total Price: %.2f", totalPrice);
+    }
+}

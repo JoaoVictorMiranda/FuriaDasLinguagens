@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("+++ FATORIAL +++");
+
+        System.out.println("Qual numero gostaria de ver o fatorial?");
+        System.out.println("Digite o numero: ");
+        int numero = scanner.nextInt();
+
+        if (numero < 0) {
+            System.out.println("Numeros negativos não tem fatorial");
+            return;
+        }
+        int fatorial = fatorial(numero);
+        System.out.printf("O fatorial é %d", fatorial);
+
+    }
+
+    public static int fatorial(int num) {
+        int fatorial = num;
+        if (num == 0) {
+            return 1;
+        }
+        for (int i = num - 1; i > 0; i--) {
+            fatorial *= i;
+        }
+        return fatorial;
+    }
+}

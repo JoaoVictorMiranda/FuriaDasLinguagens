@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite os minutos: ");
+        int minutos = scanner.nextInt();
+
+        String resposta = calcular((minutos));
+
+        System.out.println(resposta);
+    }
+
+    public static String calcular(int min) {
+        int horas = min / 60;
+        int minutos = min % 60;
+        String formatacao = horas + "h " + minutos + "min";
+        return formatacao;
+    }
+}
